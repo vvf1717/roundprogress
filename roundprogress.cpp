@@ -27,7 +27,7 @@ void RoundProgress::paintEvent(QPaintEvent *event)
 
     painter.setPen(QPen(Qt::red, 6));
     painter.setFont(QFont("Arial", 30));
-    painter.drawText(rect().adjusted(width()/2-width()/20, 0, -(width()/10), 0), Qt::AlignVCenter | Qt::AlignLeft,
+    painter.drawText(rect().adjusted(width()/2-width()/5, 0, -(width()/10), 0), Qt::AlignVCenter | Qt::AlignLeft,
                      QString("%1").arg(curProgress) + "%");
 
 }

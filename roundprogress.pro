@@ -10,12 +10,10 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    roundprogress.cpp \
-    widget.cpp
+    roundprogress.cpp
 
 HEADERS += \
-    roundprogress.h \
-    widget.h
+    roundprogress.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

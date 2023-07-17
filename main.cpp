@@ -1,16 +1,14 @@
-#include "widget.h"
-
 #include <QApplication>
 #include <QtWidgets>
-
-#include <QDebug>
 
 #include "roundprogress.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Widget w;
+    QWidget w;
+    w.setFixedHeight(200);
+    w.setFixedWidth(200);
 
     RoundProgress* rpr = new RoundProgress;
 
